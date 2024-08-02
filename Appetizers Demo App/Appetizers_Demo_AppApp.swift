@@ -13,7 +13,7 @@ struct Appetizers_Demo_AppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppetizerTabView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
