@@ -9,8 +9,6 @@ import SwiftUI
 import CoreData
 
 struct AppetizerTabView: View {
- 
-
     var body: some View {
         TabView{
             AppetizerListView()
@@ -29,6 +27,8 @@ struct AppetizerTabView: View {
                     Text("Order")
                 }
         }
+        // cambiar accent color
+        .accentColor(Color("brandPrimary"))
     }
 }
 
